@@ -1,6 +1,6 @@
 # Ignore compiled Python files
 *.pyc
-
+__pycache__/
 
 # Ignore local development settings
 *.env
@@ -12,7 +12,7 @@ media/
 staticfiles/
 
 # Ignore database files
-
+*.sqlite3
 
 # Ignore logs
 *.log

@@ -1,0 +1,34 @@
+# Ignore compiled Python files
+*.pyc
+
+
+# Ignore local development settings
+*.env
+
+# Ignore generated media files
+media/
+
+# Ignore static files collected by Django
+staticfiles/
+
+# Ignore database files
+
+
+# Ignore logs
+*.log
+
+# Ignore virtual environment
+venv/
+
+# Ignore IDE and editor specific files
+.vscode/
+.idea/
+*.pyproj
+*.pyproj.user
+*.sln
+*.suo
+*.user
+*.bak
+
+# Ignore sensitive or personal information
+secrets.json
